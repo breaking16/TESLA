@@ -13,7 +13,7 @@ $('.header-btn').on('click', function () {
 });
 
 $('.close-btn').on('click', function () {
-$('.menu').removeClass('.active');
+$('.menu').removeClass('active');
       
 });
 

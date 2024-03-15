@@ -93,6 +93,7 @@ body {
   left: -100%;
   width: 100%;
   transition: all 0.5s;
+  z-index: 7;
 }
 
 .menu.active {
@@ -338,4 +339,7 @@ body {
   content: "|";
   position: absolute;
   left: -5px;
+}
+
+@media (max-width: 1200px) {
 }
